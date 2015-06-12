@@ -1,5 +1,18 @@
 body{
 background-color:#f1f1f1;
+color:#262626;
+}
+a{
+    color:#262626;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
 }
 div.menu ul li{
+    display:block;
+    width:60px;
+}
+div.menu ul li:hover{
+    background-color:#ffffff;
 }
