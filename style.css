@@ -4,9 +4,13 @@ body{
     margin:0px;
 }
 div.content{
-    padding:5px 5px 5px 255px;
+    overflow:auto;
+    padding:5px 5px 5px 5px;
     color:#262626;
     height:100%;
+}
+div.content h2{
+    margin-top: 0px;
 }
 div.menu{
     padding:0px;
@@ -33,7 +37,7 @@ div.menu a{
 div.menu ul{
     color:#f1f1f1;
     padding:0px;
-    font-size:25px;
+    font-size:30px;
     display:block;
 }
 div.menu a:hover{
