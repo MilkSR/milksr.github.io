@@ -1,6 +1,8 @@
 body{
 background-color:#f1f1f1;
 color:#262626;
+font-family: 'Lato';
+margin:25px;
 }
 a{
     color:#262626;
@@ -10,8 +12,10 @@ a:hover{
     text-decoration: underline;
 }
 div.menu ul li{
+    margin-left:0px;
+    font-size:25px;
     display:block;
-    width:60px;
+    width
 }
 div.menu ul li:hover{
     background-color:#ffffff;
