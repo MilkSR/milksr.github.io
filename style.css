@@ -1,7 +1,11 @@
+body{
+    font-family: 'Lato';
+    background-color:#f1f1f1;
+    margin:0px;
+}
 div.content{
-background-color:#f1f1f1;
-color:#262626;
-font-family: 'Lato';
+    color:#262626;
+    height:100%;
 }
 a{
     color:#262626;
@@ -12,18 +16,25 @@ a:hover{
 }
 div.menu{
     padding:0px;
-    background-color:#f2f2f2;
+    background-color:#262626;
     width:250px;
     height:100%;
     float: left;
     border-style:dashed;
-    border-width:1px;
+    border-width:0 1px 0 0;
+    border-color:#FFF;
+    margin:0px;
 }
-div.menu ul li{
-    margin-left:0px;
+div.menu a{
+    color:#f1f1f1;
+    padding-left:5px;
+}
+div.menu ul{
+    color:#f1f1f1;
+    padding:0px;
     font-size:25px;
     display:block;
 }
 div.menu ul li:hover{
-    background-color:#ffffff;
+    background-color:#7e7e7e;
 }
