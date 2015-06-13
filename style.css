@@ -52,6 +52,7 @@ div.twitter-bar{
     border-width:0 0 0 1px;
     border-color:#262626;
     height:100%;
+    position:relative;
 }
 blockquote{
     color:#808080;
