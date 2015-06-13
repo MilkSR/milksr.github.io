@@ -5,7 +5,7 @@ body{
 }
 div.content{
     overflow:auto;
-    padding:5px 5px 5px 5px;
+    padding:5px 5px 0 5px;
     color:#262626;
     height:100%;
 }
@@ -22,7 +22,6 @@ div.menu{
     border-width:0 1px 0 0;
     border-color:#FFF;
     margin:0px;
-    margin-bottom:10px;
 }
 div.menu h1{
     margin:5px 0 0 10px;
@@ -40,8 +39,16 @@ div.menu ul{
     padding:0px;
     font-size:30px;
     display:block;
+    margin-bottom:10px;
 }
 div.menu a:hover{
     background-color:#7e7e7e;
     text-decoration: underline;
+}
+div.twitter-bar{
+    float:right;
+    padding-left:5px;
+    border-style:dashed;
+    border-width:0 0 0 1px;
+    border-color:#262626;
 }
