@@ -51,4 +51,5 @@ div.twitter-bar{
     border-style:dashed;
     border-width:0 0 0 1px;
     border-color:#262626;
+    height:100%;
 }
