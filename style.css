@@ -63,3 +63,12 @@ p sup{
 blockquote{
     font-style:italic;
 }
+.headline h2, .headline p {
+    display: inline;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;    
+}
+.headline h2 {
+    font-weight: bold;
+}

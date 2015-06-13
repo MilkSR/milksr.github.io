@@ -49,14 +49,28 @@ weab garbage
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 <div class="content">
+<div class="headline">
 <h2 style="margin-bottom:0px;">
-WooferedMilk
+WooferedMilk - 
 </h2>
+<p style="font-size:smaller;"><a href="#general">General</a> | <a href="#modules">Modules</a> | <a href="#speedrun">Speedrun</a> | <a href="#custom">Custom</a> | <a href="#youtube">Youtube</a> | <a href="#kadgar">Kadgar</a></p>
+</div>
+<hr/>
+<h3 id="general">General</h3>
 <p>
-hi this is where my bot documentation/use stuff will go - defaults in superscript
+<b>All</b> commands that are default in the bot start with a +, rather than a !, so that the commands don't clash with any other bots in the channel, but custom commands can begin with whatever you like.<br/>
+WooferedMilk's default commands are are +dogs, +about, adding custom emotes/commands, and it will post a dog emote if 3 lines of chat with the dog in them is posted in the current chat you are in.<br/>
+<b><i>You can disable the dog emote replies and the +dogs commands by typing '+disable dogs' in your chat.</b></i>
 </p>
 <hr/>
-<h3>Speedrun Commands</h3>
+<h3 id="modules">Adding/Remove Modules</h3>
+<blockquote> Modules are: speedrun, youtube, kadgar, dogs, and dogfacts.</blockquote>
+<p>+add 'module'</p>
+<blockquote>When you type this command into chat with a module name after it, it allows the use of the commands in those modules to be used in your channel.</blockquote>
+<p>+disable 'module'</p>
+<blockquote>When you type this command into chat with a module name after it, it disallows the use of the commands in those modules to be used in your channel.</blockquote>
+<hr/>
+<h3 id="speedrun">Speedrun Commands</h3>
 <p>+wr game<sup>current game</sup> category<sup>varies</sup></p>
 <blockquote>This command gets the world record of the given game and category from <a href="http://speedrun.com">speedrun.com</a> api and posts it in the chat the command was used in.</blockquote>
 <p>+wr video<sup>current game</sup> category<sup>varies</sup></p>
@@ -68,11 +82,22 @@ hi this is where my bot documentation/use stuff will go - defaults in superscrip
 <p>+race multistream<sup>kadgar</sup> user<sup>current channel</sup></p>
 <blockquote>This command gets a list of users in the race, if the given user is in a race, checks if the users are currently live on twitch, then posts a multitwitch link in chat for the live races. All options are srl, kadgar, speedruntv, and multitwitch.</blockquote>
 <hr/>
-<h3>Custom Stuff</h3>
+<h3 id="custom">Custom Stuff</h3>
 <p>+new command 'command' 'response'</p>
 <blockquote>This command lets you add custom commands to your channel. The command in quotes is what you would name your command, the response in quotes is what your response would be to the command. The response is the only thing that can have spaces in it.</blockquote>
 <p>+new emote 'emote'</p>
 <blockquote>This command lets you add custom emotes for the bot to respond to, similar to the dog emotes it replies after the emote is posted 3 times. The emote in quotes is the emote you want the bot to reply to.</blockquote>
+<hr/>
+<h3 id="youtube">YouTube</h3>
+<p>If a YouTube link is posted in the current channel you are in, the bot can recognize the link and post the Youtube video title and the channel who posted it.</p>
+<hr/>
+<h3 id="dogfacts">Dog Facts</h3>
+<p>+dogfacts</p>
+<blockquote>When this command is used in a chat, a random fact about dogs, surrounded in dog emotes, is posted in the chat the command was used in.</blockquote>
+<hr/>
+<h3 id="kadgar">Kadgar</h3>
+<p>+kadgar 'channel' 'channel'</p>
+<blockquote>This commands makes a kadgar link of the channels you type after +kadgar, it can be used for infinitely many channels, just seperate by spaces.</blockquote>
 </div>
 </body>
 </html>
