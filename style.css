@@ -53,3 +53,12 @@ div.twitter-bar{
     border-color:#262626;
     height:100%;
 }
+blockquote{
+    color:#808080;
+}
+p sup{
+    font-style:italic;
+}
+blockquote{
+    font-style:italic;
+}

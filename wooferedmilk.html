@@ -49,12 +49,30 @@ weab garbage
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 <div class="content">
-<h2>
-hi
+<h2 style="margin-bottom:0px;">
+WooferedMilk
 </h2>
 <p>
-hi this is where my bot documentation/use stuff will go
+hi this is where my bot documentation/use stuff will go - defaults in superscript
 </p>
+<hr/>
+<h3>Speedrun Commands</h3>
+<p>+wr game<sup>current game</sup> category<sup>varies</sup></p>
+<blockquote>This command gets the world record of the given game and category from <a href="http://speedrun.com">speedrun.com</a> api and posts it in the chat the command was used in.</blockquote>
+<p>+wr video<sup>current game</sup> category<sup>varies</sup></p>
+<blockquote>This command gets the video for the world record of the given game and category from <a href="http://speedrun.com">speedrun.com</a> api and posts it in the chat the command was used in.</blockquote>
+<p>+pb runner<sup>current channel</sup> game<sup>current game</sup> category<sup>varies</sup></p>
+<blockquote>This command gets the personal record of the given runner in the given game and category and posts the user's record in the chat the command was used in.</blockquote>
+<p>+splits runner<sup>current channel</sup> game<sup>current game</sup> category<sup>varies</sup></p>
+<blockquote>This command gets the runner's splits for the given game and category from <a href="http://speedrun.com">speedrun.com</a> api and posts a link to the <a href="http://splits.io">splits.io</a> page for them.</blockquote>
+<p>+race multistream<sup>kadgar</sup> user<sup>current channel</sup></p>
+<blockquote>This command gets a list of users in the race, if the given user is in a race, checks if the users are currently live on twitch, then posts a multitwitch link in chat for the live races. All options are srl, kadgar, speedruntv, and multitwitch.</blockquote>
+<hr/>
+<h3>Custom Stuff</h3>
+<p>+new command 'command' 'response'</p>
+<blockquote>This command lets you add custom commands to your channel. The command in quotes is what you would name your command, the response in quotes is what your response would be to the command. The response is the only thing that can have spaces in it.</blockquote>
+<p>+new emote 'emote'</p>
+<blockquote>This command lets you add custom emotes for the bot to respond to, similar to the dog emotes it replies after the emote is posted 3 times. The emote in quotes is the emote you want the bot to reply to.</blockquote>
 </div>
 </body>
 </html>
