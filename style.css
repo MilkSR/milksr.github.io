@@ -5,7 +5,7 @@ body{
 }
 div.content{
     overflow:auto;
-    padding:5px 5px 0 5px;
+    padding:5px 10px 0 10px;
     color:#262626;
     height:100%;
 }
