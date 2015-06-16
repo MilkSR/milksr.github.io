@@ -1,6 +1,9 @@
 // Fall v2.1 By MaxxBlade - http://www.maxxblade.co.uk/fall
 
-var fallObjects=new Array();function newObject(url,height,width){fallObjects[fallObjects.length]=new Array(url,height,width);}
+var fallObjects=new Array();
+function newObject(url,height,width) {
+	fallObjects[fallObjects.length] = new Array(url,height,width);
+}
 
 ///////////// EDIT THIS SECTION //////////////
 var numObjs=300, waft=50, fallSpeed=15, wind=0;
@@ -50,6 +53,14 @@ function fall(){
 	}
 	setTimeout("fall()",31);
 }
-var objects=new Array(),winOffset=0,winHeight,winWidth,togvis,moz=(document.getElementById&&!document.all)?1:0;winSize();
-for (i=0;i<numObjs;i++){fallObject(i,parseInt(Math.random()*fallObjects.length),1);}
-window.onscroll=winOfy;window.onresize=winSize;fall();
+
+var objects=new Array(),winOffset=0,winHeight,winWidth,togvis,moz=(document.getElementById&&!document.all)?1:0;
+
+function rain() {
+	winSize();
+	for (i=0;i<numObjs;i++) {
+		fallObject(i,parseInt(Math.random()*fallObjects.length),1);
+	}
+	window.onscroll=winOfy;window.onresize=winSize;
+	fall();
+}
