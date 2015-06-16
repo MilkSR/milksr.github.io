@@ -68,3 +68,7 @@ function rain() {
 	document.getElementById('dogs').innerHTML = window.dogsHtml;
 	fall();
 }
+
+function dogKILL() {
+	document.getElementById('dogs').innerHTML = "";
+}
