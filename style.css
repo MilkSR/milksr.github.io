@@ -2,6 +2,7 @@ body{
     font-family: 'Lato';
     background-color:#f1f1f1;
     margin:0px;
+    cursor:  url('http://oz.dogs.net.au/yasskennelclub/uploads/images/mariachi_dog_shake_maracas_hg_clr.gif'), auto;
 }
 div.content{
     overflow:auto;
