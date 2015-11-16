@@ -4,7 +4,7 @@ body{
     margin-top:0px;
     font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
     text-shadow: rgba(0,0,0,.01) 0 0 1px;
-    background-image:url("images/srlchicken.jpg");
+    background:#f1f1f1;
     background-size:100%;
 }
 #top{
