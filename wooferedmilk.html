@@ -1,0 +1,327 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="woofstyle.css">
+        <title>
+            w00fy
+        </title>
+    </head>
+    
+    <body>
+        <h2 id="top">
+            <a href="http://twitch.tv/wooferedmilk">WooferedMilk</a> Documenation -&nbsp;<span style="font-size:15px;position:absolute;transform:translateY(7px);">Type +join in <a href="http://twitch.tv/wooferedmilk">WooferedMilk's Chat</a> to get the bot in your channel.</span><a href="http://twitch.tv/wooferedmilk"><img height="28px" src="images/BlackZ.svg" align="right" style="margin-right:3px;"></a>
+        </h2>  
+        <table width="100%">
+            <tr id="m">
+                <th colspan="2">
+                    General Commands - &lt;&gt; are only there to specify text that varies depending on what the command is meant to do. Don't actually type the brackets.
+                </th>
+            </tr>
+            <tr id="md">
+                <td>
+                    +about
+                </td>
+                <td>
+                    Gives general info about the bot.
+                </td>
+            </tr>
+            <tr id="md">
+                <td width="15%">
+                    +commands
+                </td>
+                <td>
+                    Returns a list of available commands based on who the user is and their mod/channel owner status.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +help &lt;command&gt;
+                </td>
+                <td>
+                    Gives information on whatever command is specified after the initial command.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +modules
+                </td>
+                <td>
+                    Gives a list of modules available in the bot. - Mod/Channel Owner only.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +enable/disable &lt;module&gt;
+                </td>
+                <td>
+                    Either enables or disables the module specified.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +new command &lt;command&gt; &lt;response&gt;
+                </td>
+                <td>
+                    Adds a new custom command to your channel. It adds no trigger, so you have to type that in manually or leave it out, if you'd like. - Mod/Channel Owner only.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +del command &lt;command&gt;
+                </td>
+                <td>
+                    Deletes the command specified. - Mod/Channel Owner only.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +part
+                </td>
+                <td>
+                    Removes WooferedMilk from your channel. - Channel Owner only.
+                </td>
+            </tr>
+            <tr id="m">
+                <th colspan="2">
+                    Dogs
+                </th>
+            </tr>
+            <tr id="md">
+                <td colspan="2">
+                    If 3 of the same dog are posted in chat the bot posts that dog.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +dogs
+                </td>
+                <td>
+                    Posts 5 dogs in chat.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +slots
+                </td>
+                <td>
+                    Posts 3 random dogs in chat. If the 3 dogs are the same it says "Jackpot!" with a dog in the message after.
+                </td>
+            </tr>
+            <tr>
+                <th id="m" colspan="2">
+                    Dogfacts
+                </th>
+            </tr>
+            <tr id="md">
+                <td>
+                    +dogfacts
+                </td>
+                <td>
+                    Posts a random dogfact from a list of 99. Please give me better dogfacts.
+                </td>
+            </tr>
+            <tr id="m">
+                <th colspan="2">
+                    FAQ
+                </th>
+            </tr>
+            <tr id="md">
+                <td>
+                    +faq
+                </td>
+                <td>
+                    Checks your current game on twitch and displays the FAQ set for that game.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +new faq &lt;faq link&gt;
+                </td>            
+                <td>
+                    Sets an FAQ for your current game set on twitch.
+                </td>
+            </tr>
+            <tr id="m">
+                <th colspan="2">
+                    Lastfm
+                </th>
+            </tr>
+            <tr id="md">
+                <td>
+                    +lastfm &lt;last.fm account name&gt;
+                </td>
+                <td>
+                    Sets last fm account name to be able to use the +song command - Channel Owner only.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +song
+                </td>
+                <td>
+                    Checks your last.fm account to see if a song is scrobbling to it. Spotify supports last.fm scrobbling to display the song you're listening to and other programs most likely support it as well.
+                </td>
+            </tr>
+            <tr id="m">
+                <th colspan="2">
+                    Linkinfo
+                </th>
+            </tr>
+            <tr id="md">
+                <td colspan="2">
+                    If a link to a Twitter post, YouTube video, or FrankerFaceZ emote is posted in chat, the bot will tell you what the tweet says, video is, or emote is.
+                </td>
+            </tr>
+            <tr id="m">
+                <th colspan="2">
+                    Multi
+                </th>
+            </tr>
+            <tr id="md">
+                <td>
+                    +multi &lt;multitwitch&gt; &lt;channel&gt;
+                </td>
+                <td>
+                    Makes a multitwitch link of your channel and another. Separate channels by spaces and add as many as necessary (The bot auto inputs the channel the command is used from). Multitwitch can be replaced with kadgar or speedruntv.
+                </td>
+            </tr>
+            <tr id="m">
+                <th colspan="2">
+                    Novelty
+                </th>
+            </tr>
+            <tr id="md">
+                <td>
+                    +8ball
+                </td>
+                <td>
+                    Displays a response and 8ball would give you. Best used with a message after it.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +slots
+                </td>
+                <td>
+                    Posts 3 random dogs in chat. If the 3 dogs are the same it says "Jackpot!" with a dog in the message after. 
+                </td>
+            </tr>
+            <tr id="m">
+                <th colspan="2">
+                    Pokedex
+                </th>
+            </tr>
+            <tr id="md">
+                <td>
+                    +pkdx &lt;Pokémon name&gt;
+                </td>
+                <td>
+                    Displays stats and type of the Pokémon specified. All stats should be from gen 6, though I'm not 100% sure of it.
+                </td>
+            </tr>
+            <tr id="m">
+                <th colspan="2">
+                    Quote
+                </th>
+            </tr>
+            <tr id="md">
+                <td>
+                    +quote &lt;optional id&gt;
+                </td>
+                <td>
+                    Either gives a random quote from the channel or the quote related to the id given.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +new quote &lt;quote&gt;
+                </td>
+                <td>
+                    Stores a quote in the bots list of quotes for your channel with a related ID. - Mod/Channel Owner only.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +del quote &lt;quote ID&gt;
+                </td>
+                <td>
+                    Deletes the quote related to the ID given from the bot's list of quotes for your channel. - Mod/Channel Owner only.
+                </td>
+            </tr>
+            <tr id="m">
+                <th colspan="2">
+                    Speedrun
+                </th>
+            </tr>
+            <tr id="md">
+                <td colspan="2">
+                    If a link to a speedrun.com run is posted in chat, the bot tells you the info of the run.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +wr &lt;game&gt; &lt;category&gt;
+                </td>
+                <td>
+                    Gets the world record in whatever game and category is specified. If no category is specified, it tries to find one in your title; If no game is specified it gets that from your Twitch.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +pb &lt;user&gt; &lt;game&gt; &lt;category&gt;
+                </td>
+                <td>
+                    Gets the user's record in whatever game and category is specified. If no user is specified, it uses the channel name; If no category is specified, it tries to find one in your title; If no game is specified it gets that from your Twitch.
+                </td>
+            </tr>
+            <tr id="m">
+                <th colspan="2">
+                    Utility
+                </th>
+            </tr>
+            <tr id="md">
+                <td>
+                    +hl &lt;optional description&gt;
+                </td>
+                <td>
+                    Sets a highlight timestamp for the current point in your stream. May be off weird if you get transcoding options mid-stream.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +highlights
+                </td>
+                <td>
+                    Displays highlight timestamps and their available descriptions.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +dhl
+                </td>
+                <td>
+                    Deletes all highlight timestamps.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +uptime
+                </td>
+                <td>
+                    Displays how long the stream has been live.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +title
+                </td>
+                <td>
+                    Displays the channel's title. Mostly useful for mobile users.
+                </td>
+            </tr>
+        </table>
+        </div>
+    
+    
+    
+    </body>
