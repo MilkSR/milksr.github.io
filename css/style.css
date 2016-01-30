@@ -1,13 +1,12 @@
 body{
     font-family: 'Lato';
-    background-color:#f1f1f1;
     margin:0px;
-    cursor:  url('http://oz.dogs.net.au/yasskennelclub/uploads/images/mariachi_dog_shake_maracas_hg_clr.gif'), auto;
+    background-color:black;
 }
 div.content{
     overflow:auto;
-    padding:5px 10px 0 10px;
-    color:#262626;
+    padding:0px 10px 0 17px;
+    color:#fff;
     height:100%;
 }
 div.content h2{
@@ -26,13 +25,14 @@ div.mod{
 }
 div.menu{
     padding:0px;
-    background-color:#262626;
+    background-color:rgba(0,0,0,0.5);
     width:250px;
     height:100%;
     float: left;
-    border-style:dashed;
-    border-width:0 1px 0 0;
-    border-color:#FFF;
+    border-style:solid;
+    border-color:white;
+    border-width:0;
+    border-right-width: 1px;
     margin:0px;
 }
 div.menu h1{
@@ -44,6 +44,7 @@ div.menu a{
     color:#f1f1f1;
     padding-left:5px;
     display:block;
+    padding-left:5px;
     text-decoration:none;
 }
 div.menu ul{
@@ -52,35 +53,12 @@ div.menu ul{
     font-size:30px;
     display:block;
     margin-bottom:10px;
+    text-shadow: 0px -1px #000, 1px -1px #000, 1px 0px #000, 1px 1px #000, 0px 1px #000, -1px 1px #000, -1px 0px #000, -1px -1px #000;
 }
 div.menu a:hover{
-    background-color:#7e7e7e;
-    text-decoration: underline;
+    background-color:rgba(255,255,255,0.1);
 }
-div.twitter-bar{
-    float:right;
-    padding-left:5px;
-    border-style:dashed;
-    border-width:0 0 0 1px;
-    border-color:#262626;
-    height:100%;
-    position:relative;
-}
-div.twitch-chat{
-    float:right;
-    padding-left:5px;
-    height:100%;
-    position:relative;
-}
-blockquote{
-    color:#808080;
-}
-p sup{
-    font-style:italic;
-}
-blockquote{
-    font-style:italic;
-}
+
 .headline h2, .headline p {
     display: inline;
     vertical-align: top;
@@ -90,8 +68,38 @@ blockquote{
 .headline h2 {
     font-weight: bold;
 }
-iframe {
-    -moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
+.git:hover{
+    color:#4078c0;
+}
+.ircbot:hover{
+    color:#f85757;
+}
+.twitch:hover{
+    color:#6441A5;
+}
+.twitter:hover{
+    color:#55acee;
+}
+.srcom:hover{
+    color:#f5c553
+}
+.youtube:hover .tube{
+    color:#e52d27
+}
+.background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.background::after {
+    content: "";
+    background: url(../images/epic.jpg);
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
 }
