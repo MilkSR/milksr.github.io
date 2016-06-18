@@ -81,10 +81,30 @@ div.menu a:hover{
     color:#55acee;
 }
 .srcom:hover{
-    color:#f5c553
+    color:#f5c553;
 }
 .youtube:hover .tube{
-    color:#e52d27
+    color:#e52d27;
+}
+.jsrl:hover{
+    color:#ffe222;
+}
+.steam:hover{
+    color:#b8b6b4;
+}
+.nnid:hover{
+    color:#ff9232;
+}
+.discord:hover{
+    color:#738bd7;
+}
+a {
+    color:red;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(255,70,70);
+    text-decoration:underline;
 }
 .background {
     width: 100%;

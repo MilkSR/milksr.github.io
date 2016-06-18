@@ -2,6 +2,7 @@
     
     <head>
         <link rel="stylesheet" type="text/css" href="woofstyle.css">
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
         <title>
             w00fy
         </title>
@@ -9,7 +10,7 @@
     
     <body>
         <h2 id="top">
-            <a href="http://twitch.tv/wooferedmilk">WooferedMilk</a> Documenation -&nbsp;<span style="font-size:15px;position:absolute;transform:translateY(7px);">Type +join in <a href="http://twitch.tv/wooferedmilk">WooferedMilk's Chat</a> to get the bot in your channel.</span><a href="http://twitch.tv/wooferedmilk"><img height="28px" src="images/BlackZ.svg" align="right" style="margin-right:3px;"></a>
+            <a href="http://twitch.tv/wooferedmilk">WooferedMilk</a> Documenation -&nbsp;<span style="font-size:15px;position:absolute;transform:translateY(7px);">Type +join in <a href="http://twitch.tv/wooferedmilk">WooferedMilk's Chat</a> to get the bot in your channel.</span><a href="http://twitch.tv/wooferedmilk"><img height="28px" src="../images/BlackZ.svg" align="right" style="margin-right:3px;"></a>
         </h2>  
         <table width="100%">
             <tr id="m">
@@ -99,14 +100,6 @@
                     Posts 5 dogs in chat.
                 </td>
             </tr>
-            <tr id="md">
-                <td>
-                    +slots
-                </td>
-                <td>
-                    Posts 3 random dogs in chat. If the 3 dogs are the same it says "Jackpot!" with a dog in the message after.
-                </td>
-            </tr>
             <tr>
                 <th id="m" colspan="2">
                     Dogfacts
@@ -169,7 +162,7 @@
             </tr>
             <tr id="md">
                 <td colspan="2">
-                    If a link to a Twitter post, YouTube video, or FrankerFaceZ emote is posted in chat, the bot will tell you what the tweet says, video is, or emote is.
+                    If a link to a Twitter post, YouTube video, Twitch VoD, Strawpoll, Twitchpoll, SoundCloud, or FrankerFaceZ emote is posted in chat, the bot will give info based on the link provided.
                 </td>
             </tr>
             <tr id="m">
@@ -182,7 +175,7 @@
                     +multi &lt;multitwitch&gt; &lt;channel&gt;
                 </td>
                 <td>
-                    Makes a multitwitch link of your channel and another. Separate channels by spaces and add as many as necessary (The bot auto inputs the channel the command is used from). Multitwitch can be replaced with kadgar or speedruntv.
+                    Makes a multitwitch link of your channel and others. Separate channels by spaces as needed (The bot auto inputs the channel the command is used from). <a href="http://multitwitch.tv">Multitwitch</a> can be replaced with <a href="http://kadgar.net/live/">kadgar</a>, <a href="http://speedrun.tv">speedruntv</a>, <a href="http://twitchdeck.io">twitchdeck</a>, or <a href="http://multistre.am">multistream</a>.
                 </td>
             </tr>
             <tr id="m">
@@ -213,10 +206,10 @@
             </tr>
             <tr id="md">
                 <td>
-                    +pkdx &lt;Pokémon name&gt;
+                    +pkdx &lt;Pok&eacute;mon name&gt;
                 </td>
                 <td>
-                    Displays stats and type of the Pokémon specified. All stats should be from gen 6, though I'm not 100% sure of it.
+                    Displays stats and type of the Pok&eacute;mon specified. All stats should be from gen 6, though I'm not 100% sure of it.
                 </td>
             </tr>
             <tr id="m">
@@ -264,6 +257,14 @@
                 </td>
                 <td>
                     Gets the world record in whatever game and category is specified. If no category is specified, it tries to find one in your title; If no game is specified it gets that from your Twitch.
+                </td>
+            </tr>
+            <tr id="md">
+                <td>
+                    +lb &lt;game&gt;
+                </td>
+                <td>
+                    Gets the leaderboard in whatever game is specified. If no game is specified it gets that from your Twitch.
                 </td>
             </tr>
             <tr id="md">
